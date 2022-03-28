@@ -1,0 +1,48 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+#container{
+	width: 100%;
+	height: 100%;
+	background-color: pink;
+	position: absolute;
+}
+#header{
+	width: 100%;
+	height: 20%;
+	background-color: yellow;
+}
+#mid{
+	width: 100%;
+	height: 60%;
+}
+#nav{
+	width: 15%;
+	height: 100%;
+	background-color: blue;
+}
+#content{
+	width: 85%;
+	height: 100%;
+	background-color: red;
+}
+#footer{
+	width: 100%;
+	height: 20%;
+	background-color: black;
+}
+#nav, #content{
+	float: left;
+}
+#search{
+	float: right;
+}
+
+
+.display-click{
+    display: none;
+    }
+.action-click:active .display-click{
+display: inline-block;
+}
